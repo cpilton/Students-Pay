@@ -1,0 +1,333 @@
+/* CSS Document */
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+
+
+html {
+  font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #eee;
+ box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 90px;
+}
+
+/* Header */
+
+banner {
+	width: auto;
+	height: auto;
+	display: block;
+	margin: 0px auto 20px auto;
+}
+
+
+header {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	box-shadow: none;
+	text-align: center;
+}
+strong {
+	color: #626262;
+	text-shadow: #666 0px 1px 2px;
+}
+h2 {
+	text-align: center;
+	color: #4d4d4d;
+	margin: 5px;
+}
+h4 {
+	margin: auto;
+}
+p {
+	color: #000;
+	margin: 0px;
+}
+container {
+	width: auto;
+	height: auto;
+	display:table;
+	  border-radius:.25em;
+	margin: 10px auto 10px auto;
+	padding: 5px 20px 5px 20px;
+	text-align: center;
+
+}
+a {
+	text-decoration: none;
+	color: #626262;
+	cursor: pointer;
+}
+a:hover {
+	color: #D0D0D0;
+}
+/* Top */
+
+
+form {
+	color: black;
+	border: none;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 715px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	height: auto;
+	padding: 15px;
+	width: 100%;
+	background-color: #eee;
+	color: #8a97a0;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+	width: 275px;
+	outline-color: #626262;
+}
+#submit {
+	padding: 15px 30px 15px 30px;
+	color: #FFF;
+	background-color: #6060dd;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	width: 275px;
+	box-shadow: 0px 0px 1px #000;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+#submit:hover {
+	color: #ccc;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+fieldset {
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border:none;
+	background-color: #fff;
+	
+}
+heading3 {
+	display: block;
+	font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	color:#000;
+	 text-shadow: 0px 1px 0px #ccc,
+                 0px 1px 10px rgba(0,0,0,0.15),
+                 0px 3px 2px rgba(0,0,0,0.1),
+                 0px 6px 30px rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+}
+form table input {
+	box-shadow: 1px 1px 1px #000000;
+	border-radius: 3px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	align-content: center;
+}
+#heading {
+	font-size: 65px;
+	margin-top: -90px;
+	margin-left: 130px;
+	color: #456ca9;
+	text-shadow: #626262 0px 1px 5px;
+}
+#info {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999;
+	box-shadow: 0px 0.5px 1px #000000;
+	margin-top: 20px;
+	border-radius: 3px;
+	vertical-align: text-top;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+label.light {
+	font-weight: 300;
+	display: inline;
+}
+.number {
+	background-color: #6060dd;
+	color: #fff;
+	height: 1.4em;
+	width: 1.4em;
+	display: inline-block;
+	font-size: 1.4em;
+	margin-right: 4px;
+	line-height: 1.4em;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 100%;
+	margin-bottom: 10px;
+}
+#submit:active {
+	-webkit-box-shadow : 0px 0px 10px rgba(0,0,0,1.0);
+	-moz-box-shadow : 0px 0px 10px rgba(0,0,0,1.0);
+	box-shadow : 0px 0px 10px rgba(0,0,0,1.0);
+}
+#submit:focus {
+	outline: 0;
+}
+#user-result {
+	vertical-align: central;
+	padding-left: 15px;
+}
+#resizebox {
+	width: 153px;
+	height: 40px;
+}
+#resizebox2 {
+	width: 233px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 20px;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+	color: #fff;
+	 text-shadow: 0px 1px 0px #ccc,
+                 0px 1px 10px rgba(0,0,0,0.15),
+                 0px 3px 2px rgba(0,0,0,0.1),
+                 0px 6px 30px rgba(0,0,0,0.1);
+	   font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+footer a { 
+	color: #eee;
+}
+
+footer a:hover {
+	color:#ccc;
+}
+
+.bg {
+  animation:slide 80s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #12aeef 50%, #6060dd 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:100s;
+}
+
+.bg3 {
+  animation-duration:120s;
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+heading {
+    width: 100%;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	color:#fff;
+	 text-shadow: 0px 1px 0px #ccc,
+                 0px 1px 10px rgba(0,0,0,0.15),
+                 0px 3px 2px rgba(0,0,0,0.1),
+                 0px 6px 30px rgba(0,0,0,0.1);
+	
+}
+heading2{
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	color:#fff;
+	 text-shadow: 0px 1px 0px #ccc,
+                 0px 1px 10px rgba(0,0,0,0.15),
+                 0px 3px 2px rgba(0,0,0,0.1),
+                 0px 6px 30px rgba(0,0,0,0.1);
+	
+}
+heading_button{
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	color:#fff;
+	 text-shadow: 0px 1px 0px #ccc,
+                 0px 1px 10px rgba(0,0,0,0.15),
+                 0px 3px 2px rgba(0,0,0,0.1),
+                 0px 6px 30px rgba(0,0,0,0.1);
+	background-color: rgba(255,255,255,0.5);
+	padding:8px;
+	 border-radius:.25em;
+}
+
+/* Callum Pilton */
