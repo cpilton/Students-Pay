@@ -1,12 +1,11 @@
 <?php
 
-$DBH = new PDO("mysql:host=127.0.0.1;dbname=students_pay", 'root', '');
+$host = $_ENV["SQL_HOST"];
+$user = $_ENV["SQL_USER"];
+$password = $_ENV["SQL_PASSWORD"];
+$database = $_ENV["SQL_DATABASE"];
 
-$host = "127.0.0.1"; 
-$user = "root"; 
-$password = ""; 
-$database = "students_pay"; 
- 
+$DBH = new PDO( "mysql:host=$host;dbname=$database", $user, $password );
 
 $con = new mysqli($host, $user, $password, $database);
 ?>
